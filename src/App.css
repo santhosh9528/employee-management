@@ -1,0 +1,35 @@
+/* General container and layout styling */
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 150px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #007bff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li i {
+  margin-right: 10px;
+}

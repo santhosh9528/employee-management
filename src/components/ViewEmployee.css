@@ -1,0 +1,66 @@
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Employee details styling */
+.employee-details {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  margin-right: 30px;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.info-group {
+  margin-bottom: 10px;
+}
+
+.info-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.info-group p {
+  margin-top: 5px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Details section styling */
+.details-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.details-section .info-group {
+  width: 48%;
+}
+
+
